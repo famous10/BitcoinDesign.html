@@ -1,0 +1,266 @@
+*{
+    box-sizing:  border-box;
+}
+body, html{
+    height:100%;
+}
+body{
+    margin: 0;
+}
+header{
+    background: rgb(35, 148, 218);
+    height: auto;
+    padding-left:100px;
+    padding-right:100px;
+}
+    nav{
+    text-align: right;
+    padding-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding:10px;
+    color: white;
+}
+nav a.brand{
+    float:left;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+}
+
+.container{
+    width: 50%;    
+}
+.hh{
+  
+    font-family: sans-serif;
+    color: white;
+    font-size: 450%;
+}
+.dd{
+    text-align: center;
+    font-family: sans-serif;
+    color: gainsboro;
+    text-align: left;
+}
+@keyframes dance{
+    0%{background: url("../bitcoin.jpg");
+        margin-top: 5px;
+}
+    50% {
+         margin-top: 10px;
+    }
+    100% {
+        margin: 0;
+    }
+}
+.hi{
+    margin-top:10px;
+    margin-left: 450px;
+    padding: 30px 40px;
+    color: white;
+    background-color: rgb(23, 216, 23);
+    border: none;
+    border-radius: 20%;
+}
+
+.ho{
+    margin-top:10px;
+    margin-left: 115px;
+    padding: 30px 40px;
+    color: white;
+    background-color: rgb(11, 140, 145);
+    border: none;
+    border-radius: 20%;
+}
+section{   
+    height: auto;
+    padding-left:130px;
+    padding-right:130px;
+}
+.normal{
+    float: right;
+    margin-top: -175px;
+}
+
+.bitcoin_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left:750px;
+    margin-top: -500px;
+}
+.exchange{
+    background: rgb(227, 232, 235);
+    height: auto;
+    padding-left:100px;
+    padding-right:100px;   
+}
+.bit{
+    font-family: sans-serif;
+    color: slategrey;
+}
+.Access{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding-left: 30px;
+    border-radius: 2%;  
+}
+.Rate{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding-left: 30px;
+    border-radius: 2%;  
+}
+.Fast{
+    
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding-left: 30px;
+    border-radius: 2%; 
+}
+.bitcoin_hand{
+    width: 350px;
+    height: 350px;
+    margin-left:750px;
+    margin-top: -500px;      
+}
+#customer{
+    font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode',
+      'Lucida Grande',
+   'Lucida Sans',
+     Arial, sans-serif;
+    border-collapse: collapse;
+    width: 93%;
+    margin: 30px;   
+}
+#customer td, #customer th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customer tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#customer th{
+    padding: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: darkblue;
+}
+.PEOPLE{
+    background-color: #ddd;
+    height: 70%;
+}
+.us{
+    text-align: center;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    text-decoration: underline;
+    
+}
+.from{
+    margin-left: 70px;
+}
+.domain{
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding-left: 30px;
+    border-radius: 1%;
+    margin-left: 60px; 
+}
+.biz{
+    color: blue;
+    padding-top: 18px;
+    text-align: center;
+}
+.Giftcard{
+    text-align: center;
+    margin-left: 10px;
+    font-style: italic;
+}
+.Bode{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    padding-left: 30px;
+    border-radius: 0%;
+    margin-left: 400px;
+    margin-top: -230px;
+  
+}
+.prefect{
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     color:blue;
+     padding-top:20px ;
+}
+.solution{
+    font-style: italic;
+}
+.message{
+    background-color: #ddd;
+    height: 70%;
+}
+.contact{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+    color: darkblue;   
+}
+.open{
+    text-align: center;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+    color: black;
+}
+.loc{
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 60px; 
+    color:blue;   
+}
+.formbox{
+    width: 500px;
+    background: white;
+    margin-left:700px ;
+    padding-top: 10px;
+    margin-top: -333px;
+}
+.formbox input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;   
+}
+.mes{
+    height: 200px;
+}
+.copy{
+    color: white;
+    background-color:darkblue;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 59px;
+}
